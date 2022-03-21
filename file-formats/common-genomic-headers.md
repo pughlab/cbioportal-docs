@@ -8,7 +8,7 @@ Most common genomic files imported are the mutations, fusion, seg, and CNA files
 
 ## Fusion File
 
-A fusion data file consists of one gene per row. It is a tab-delimited file, where the naming format and order of the headers must be the following:
+A [fusion data](https://docs.cbioportal.org/5.1-data-loading/data-loading/file-formats#fusion-data) file consists of one gene per row. It is a tab-delimited file, where the naming format and order of the headers must be the following:
 
 | Hugo\_Symbol | Entrez\_Gene\_Id | Center | Tumor\_Sample\_Barcode | Fusion | DNA\_support | RNA\_support | Method | Frame |
 | ------------ | ---------------- | ------ | ---------------------- | ------ | ------------ | ------------ | ------ | ----- |
@@ -30,7 +30,7 @@ A fusion data file consists of one gene per row. It is a tab-delimited file, whe
 
 ## Segmented File
 
-A segmented data file (aka seg file) is a tab-delimited text file that lists loci and associated numeric values. When the seg data is imported, it enables the 'CNA' track on cBioPortal's Patient view within the Summary tab. The naming format and order of the headers must be the following:
+A [segmented data](https://docs.cbioportal.org/5.1-data-loading/data-loading/file-formats#segmented-data) file (aka seg file) is a tab-delimited text file that lists loci and associated numeric values. When the seg data is imported, it enables the 'CNA' track on cBioPortal's Patient view within the Summary tab. The naming format and order of the headers must be the following:
 
 | ID | chrom | loc.start | loc.end | num.mark | seg.mean |
 | -- | ----- | --------- | ------- | -------- | -------- |
