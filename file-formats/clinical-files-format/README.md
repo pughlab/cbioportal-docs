@@ -31,7 +31,9 @@ If the user has additional clinical data they would like to import, cBioPortal s
 
 In order to have a successful timeline, there must be dates data. One cannot create a cBioportal timeline without any dates data. The date of diagnosis is a must have data point, as it will act as point zero on the clinical timeline scale. You will use the date of diagnosis to calculate any type of timeline, as the start point (`START_DATE`) is calculated in _DAYS._
 
-__
+{% hint style="info" %}
+For more information about how to set up clinical timeline files, please refer to the [Clinical Data Setup](../../clinical-timeline-setup/what-is-it.md) section or the official cBioportal documentation's [Timeline Data](https://docs.cbioportal.org/5.1-data-loading/data-loading/file-formats#timeline-data) section
+{% endhint %}
 
 __
 
