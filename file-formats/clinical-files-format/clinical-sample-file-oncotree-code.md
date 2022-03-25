@@ -22,7 +22,7 @@ The “`ONCOTREE_CODE`” field would be the acronym of the Cancer Type Detailed
 
 ### OncoTree code example
 
-![OncoTree code example: CANCER\_TYPE = "Lung"; CANCER\_TYPE\_DETAILED = "Poorly Differentiated Non-Small Cell Lung Cancer"; ONCOTREE\_CODE = "NSCLCPD"](<../../.gitbook/assets/image (2).png>)
+![OncoTree code example: CANCER\_TYPE = "Lung"; CANCER\_TYPE\_DETAILED = "Poorly Differentiated Non-Small Cell Lung Cancer"; ONCOTREE\_CODE = "NSCLCPD"](../../.gitbook/assets/oncotree\_code\_example.png)
 
 
 

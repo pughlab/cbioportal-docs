@@ -20,7 +20,7 @@ This is implemented by those first two out of the four hash tag (#) rows require
     * For example: “Type of Breast Surgery”
   * However, it is understandable for certain acronyms to stay as acronyms such as “HER2”, “ER”, “MLH1”, “Patient ID”, etc., so those can remain as acronyms
 
-![Example of a clinical patient file. Source: cBioPortal.org's Documentation](../../.gitbook/assets/image.png)
+![Example of a clinical patient file. Source: cBioPortal.org's Documentation](../../.gitbook/assets/cbioportal\_metadata\_headers.png)
 
 
 
