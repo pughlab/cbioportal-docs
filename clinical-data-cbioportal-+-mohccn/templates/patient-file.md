@@ -2,12 +2,12 @@
 
 ## Patient Headers
 
-All the MOHCCN field names under the _ICGC ARGO File_ categories 'Donor' and a few from 'Primary Diagnosis' are located in this file as they pertain to the patient level attributes
+The MOHCCN field names under the _ICGC ARGO File_ categories 'Donor' and a few from 'Primary Diagnosis' are located in this file as they pertain to the patient level attributes
 
-| **PATIENT\_ID** | <mark style="color:blue;">GENDER</mark> | _<mark style="color:blue;">AGE</mark>_ | VITAL\_STATUS | CAUSE\_OF\_DEATH | SURVIVAL\_TIME | PRIMARY\_SITE | OS\_STATUS | OS\_MONTHS | DFS\_STATUS | DFS\_MONTHS | TUMOR\_SITE |
-| --------------- | --------------------------------------- | -------------------------------------- | ------------- | ---------------- | -------------- | ------------- | ---------- | ---------- | ----------- | ----------- | ----------- |
-|                 |                                         |                                        |               |                  |                |               |            |            |             |             |             |
-|                 |                                         |                                        |               |                  |                |               |            |            |             |             |             |
+| **PATIENT\_ID** | <mark style="color:blue;">GENDER</mark> | _<mark style="color:blue;">AGE</mark>_ | VITAL\_STATUS | CAUSE\_OF\_DEATH | SURVIVAL\_TIME | _<mark style="color:blue;">OS\_STATUS</mark>_ | _<mark style="color:blue;">OS\_MONTHS</mark>_ | _<mark style="color:blue;">DFS\_STATUS</mark>_ | _<mark style="color:blue;">DFS\_MONTHS</mark>_ | _<mark style="color:blue;">TUMOR\_SITE</mark>_ |
+| --------------- | --------------------------------------- | -------------------------------------- | ------------- | ---------------- | -------------- | --------------------------------------------- | --------------------------------------------- | ---------------------------------------------- | ---------------------------------------------- | ---------------------------------------------- |
+|                 |                                         |                                        |               |                  |                |                                               |                                               |                                                |                                                |                                                |
+|                 |                                         |                                        |               |                  |                |                                               |                                               |                                                |                                                |                                                |
 
 ### Legend
 
@@ -15,7 +15,8 @@ Black and bold font are mandatory cBioportal headers
 
 * **PATIENT\_ID** = "submitter\_donor\_id"
 * <mark style="color:blue;">AGE</mark> = "age\_of\_diagnosis"
-* SURVIVAL\_TIME: According to the MOHCCN fields, this is field is in DAYS; whereas cBioPortal’s field for this is ‘OS\_MONTHS’ == Overall Survival Months
+* SURVIVAL\_TIME: According to the MOHCCN fields, this is field is in DAYS
+  * whereas cBioPortal’s field for this is ‘OS\_MONTHS’ == Overall Survival Months
 
 #### &#x20;cBioPortal suggested columns are in _<mark style="color:blue;">blue italics</mark>_:
 

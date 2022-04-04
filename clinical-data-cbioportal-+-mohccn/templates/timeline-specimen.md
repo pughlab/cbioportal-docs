@@ -15,8 +15,8 @@ Black and bold font are mandatory cBioportal headers
 
 * **PATIENT\_ID** = "submitter\_donor\_id"
 * **START\_DATE** = "specimen\_acquisition\_interval"
-* **STOP\_DATE** = BLANK
-* **EVENT\_TYPE** = the category of the event
+* **STOP\_DATE** = _BLANK_
+* **EVENT\_TYPE** = 'SPECIMEN'
 * **SAMPLE\_ID** = "submitter\_specimen\_id"
 
 No matter which type of timeline file you want to create, all timeline data files MUST contain these 4 columns in this order (left to right):
