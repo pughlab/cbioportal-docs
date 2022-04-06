@@ -39,8 +39,6 @@ These columns, when provided, add additional information to the patient descript
 For more information about cBioPortal clinical patient columns please visit the [official cBioportal Documentation](https://docs.cbioportal.org/5.1-data-loading/data-loading/file-formats#clinical-patient-columns) and our [MetaData Standardization](../../file-formats/clinical-files-format/metadata-standardization.md) section
 {% endhint %}
 
-### \*Patient file template download\*
-
 {% hint style="warning" %}
 The template is in excel for the user's ease in filling out the data. However, for the actual cBioPortal project import, the file is to be in tab-delimited format. Please do not include empty columns or extra spaces, as these will give errors upon import.
 {% endhint %}
