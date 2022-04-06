@@ -14,7 +14,7 @@ The MOHCCN field names under the _ICGC ARGO File_ categories 'Donor' and a few f
 Black and bold font are mandatory cBioportal headers
 
 * **PATIENT\_ID** = "submitter\_donor\_id"
-* <mark style="color:blue;">AGE</mark> = "age\_of\_diagnosis"
+* _<mark style="color:blue;">AGE</mark>_ = "age\_of\_diagnosis"
 * SURVIVAL\_TIME: According to the MOHCCN fields, this is field is in DAYS
   * whereas cBioPortal’s field for this is ‘OS\_MONTHS’ == Overall Survival Months
 
