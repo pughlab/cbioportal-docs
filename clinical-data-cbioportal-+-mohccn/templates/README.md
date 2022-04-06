@@ -11,3 +11,14 @@ The MOHCCN data standard has its required fields. cBioPortal has its required fi
 * [ ] Timeline: Treatment Medical Therapy
 * [ ] Timeline: Treatment Radiation Therapy
 * [ ] Timeline: Follow-up
+
+### cBioPortal MOHCCN Clinical Fields Template
+
+{% file src="../../.gitbook/assets/cBioportal_MOHCCN_Clinical_Fields_updated_April062022.xlsx" %}
+The downloadable excel file including the MOHCCN data standard and associated templates
+{% endfile %}
+
+{% hint style="warning" %}
+The template is in excel for the user's ease in filling out the data. However, for the actual cBioPortal project import, the file is to be in tab-delimited format. Please do not include empty columns or extra spaces, as these will give errors upon import.
+{% endhint %}
+
