@@ -1,13 +1,13 @@
 # Templates
 
-The MOHCCN data standard has its required fields. cBioPortal has its required fields. Templates were created to merge the two sets of requirements. Since cBioPortal mandates that the clinical data is to be separated into clinical patient, samples and timeline files, where the data is categorized into several attribute types: patient, sample, and timeline. Users cannot put patient attributes into a sample file, there will be errors upon project import. The MOHCCN fields must follow this criteria to have a successful import. Thus, the _ICGC ARGO file_ categorization stated in the excel will not be followed here, although it is similar.&#x20;
+The MOHCCN data standard has its required fields. cBioPortal has its required fields. Templates were created to merge the two sets of requirements. Since cBioPortal mandates that the clinical data is to be separated into clinical patient, samples and timeline files, where the data is categorized into several attribute types: patient, sample, and timeline. Users cannot put patient attributes into a sample file, there will be errors upon project import. The MOHCCN fields must follow this criteria to have a successful import. Thus, the _ICGC ARGO File_ categorization stated in the Data Standard will not be followed here, although it is similar.&#x20;
 
-**The MOHCCN field names are split up into the following files:**
+**The MOHCCN fields are split up into the following files:**
 
-* [ ] Patient File
-* [ ] Sample File
+* [ ] Patients
+* [ ] Samples
 * [ ] Timeline: Specimen
-* [ ] Timeline: Treatment (general)
+* [ ] Timeline: Treatment
 * [ ] Timeline: Treatment Medical Therapy
 * [ ] Timeline: Treatment Radiation Therapy
 * [ ] Timeline: Follow-up
@@ -15,7 +15,7 @@ The MOHCCN data standard has its required fields. cBioPortal has its required fi
 ### cBioPortal MOHCCN Clinical Fields Template
 
 {% file src="../../.gitbook/assets/cBioportal_MOHCCN_Clinical_Fields_updated_April062022.xlsx" %}
-The downloadable excel file including the MOHCCN data standard and associated templates
+The downloadable file including the MOHCCN data standard and associated templates
 {% endfile %}
 
 {% hint style="warning" %}
