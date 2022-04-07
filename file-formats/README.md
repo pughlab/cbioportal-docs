@@ -6,7 +6,7 @@ description: >-
 
 # File Formats
 
-The following table is organized via the type of genomic data, its required format (also cBioPortal suggested filename convention) - the link provided directs user to the specific section in the official [cBioPortal.org's documentation website](https://docs.cbioportal.org/5.1-data-loading/data-loading/file-formats#formats), comments, and the mandatory associated meta file for the data file.
+The following table is organized by: the type of genomic data, its required format (also cBioPortal suggested filename convention - the link provided directs users to the specific section in the official [cBioPortal.org's documentation website](https://docs.cbioportal.org/5.1-data-loading/data-loading/file-formats#formats)), comments, and the mandatory associated meta file for the data file. For every data file in the import directory, there must be a meta file for it.
 
 
 
