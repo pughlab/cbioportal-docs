@@ -3,7 +3,7 @@
 * [cBioPortal.ca](README.md)
 * [File Formats](file-formats/README.md)
   * [Example Reference Projects](file-formats/example-reference-projects.md)
-  * [Common Genomic Headers](file-formats/common-genomic-headers.md)
+  * [Common Genomic Data File Headers](file-formats/common-genomic-data-file-headers.md)
   * [Clinical Files Format](file-formats/clinical-files-format/README.md)
     * [MetaData Standardization](file-formats/clinical-files-format/metadata-standardization.md)
     * [Clinical Sample File: OncoTree Code](file-formats/clinical-files-format/clinical-sample-file-oncotree-code.md)
