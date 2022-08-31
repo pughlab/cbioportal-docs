@@ -20,7 +20,9 @@ This is implemented by those first two out of the four hash tag (#) rows require
     * For example: “Type of Breast Surgery”
   * However, it is understandable for certain acronyms to stay as acronyms such as “HER2”, “ER”, “MLH1”, “Patient ID”, etc., so those can remain as acronyms
 
-![Example of a clinical patient file. Source: cBioPortal.org's Documentation](../../.gitbook/assets/cbioportal\_metadata\_headers.png)
+![Figure 2: Example of a clinical patient file. Source: cBioPortal.org's Documentation](../../.gitbook/assets/cbioportal\_metadata\_headers.png)
+
+![Figure 3: Example of how the meta-data would look like after project import of the clinical patient file (figure 2). The first two hash tag rows from the clinical patient file (figure 2) is imported as the entries under the "Attribute" header. The values from rows 6 onwards (figure 2) are the values that are displayed on the right hand side of this image.](../../.gitbook/assets/Results\_of\_metadata\_on\_user\_interface.png)
 
 
 

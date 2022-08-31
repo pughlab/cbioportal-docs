@@ -29,7 +29,7 @@ No matter which type of timeline file you want to create, all timeline data file
 4. **EVENT\_TYPE**: the category of the event. You are free to define any type of event here. For several event types cBioPortal has column naming suggestions and for several events there are column names which have special effects.
 
 {% hint style="info" %}
-For more information about the Timeline columns, please visit the [official cBioPortal Documentation](https://docs.cbioportal.org/5.1-data-loading/data-loading/file-formats#timeline-data), and our [Clinical Timeline Setup](../../clinical-timeline-setup/) section
+For more information about the Timeline columns, please visit the [official cBioPortal Documentation](https://docs.cbioportal.org/5.1-data-loading/data-loading/file-formats#timeline-data), and our [Clinical Timeline Setup](../../file-formats/clinical-timeline-setup/) section
 {% endhint %}
 
 {% hint style="warning" %}

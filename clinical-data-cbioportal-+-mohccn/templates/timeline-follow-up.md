@@ -27,5 +27,5 @@ Black and bold font are mandatory cBioportal headers.
 * **EVENT\_TYPE** = the category of the event; ie 'FOLLOW UP'
 
 {% hint style="info" %}
-For more information about the Timeline columns, please visit the [official cBioPortal Documentation](https://docs.cbioportal.org/5.1-data-loading/data-loading/file-formats#timeline-data), and our [Clinical Timeline Setup](../../clinical-timeline-setup/) section
+For more information about the Timeline columns, please visit the [official cBioPortal Documentation](https://docs.cbioportal.org/5.1-data-loading/data-loading/file-formats#timeline-data), and our [Clinical Timeline Setup](../../file-formats/clinical-timeline-setup/) section
 {% endhint %}

@@ -8,7 +8,7 @@ In cBioPortal, we use the OncoTree codes to help distinguish the specific cancer
 
 ## Categorizing the Cancer Type Information
 
-The “`CANCER_TYPE`” field would be the general cancer type name. The name in the base level after ‘Tissue’ on the Oncotree Map
+The “`CANCER_TYPE`” field would be the general cancer type name aka tissue type. The name in the base level after ‘Tissue’ on the Oncotree Map
 
 * For example: “Lung”
 
@@ -22,7 +22,4 @@ The “`ONCOTREE_CODE`” field would be the acronym of the Cancer Type Detailed
 
 ### OncoTree code example
 
-![OncoTree code example: CANCER\_TYPE = "Lung"; CANCER\_TYPE\_DETAILED = "Poorly Differentiated Non-Small Cell Lung Cancer"; ONCOTREE\_CODE = "NSCLCPD"](../../.gitbook/assets/oncotree\_code\_example.png)
-
-
-
+![Figure 1: A user can search for their cancer type, specific cancer type name or the oncotree code in the search field. OncoTree code example: CANCER\_TYPE = "Lung" (being the tissue type); CANCER\_TYPE\_DETAILED = "Poorly Differentiated Non-Small Cell Lung Cancer" (being the specific cancer type name); ONCOTREE\_CODE = "NSCLCPD" (the oncotree code for this specific cancer type name). The cancer type detailed and oncotree code is highlighted in red font for the user.](../../.gitbook/assets/Oncotree\_code\_example.png)
