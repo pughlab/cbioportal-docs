@@ -19,6 +19,18 @@ Small calculations for the START\_DATE and STOP\_DATE columns are required, as t
 Therefore, you will need the patient's date of diagnosis to create any timeline data file. Depending on the type of timeline file you want to create, will require specific date data.
 {% endhint %}
 
+### Consistent Date Format
+
+{% hint style="warning" %}
+It is very important to have consistent date entry formats.&#x20;
+{% endhint %}
+
+For consistency the preferred date format would be the international standard ISO 8601, in the extended format. The ISO 8601 - extended format is **YYYY-MM-DD**. It is important to communicate dates in an international standard as it allows all collaborators from everywhere to easily interpret the date data in an unambiguous way. IONOs also refers to the ISO 8601 as the international standard for the date format. [https://www.ionos.ca/digitalguide/websites/web-development/iso-8601/](https://www.ionos.ca/digitalguide/websites/web-development/iso-8601/)
+
+Always check to see if the resulting days have negative values (which suggest that there's a mix up in the encoding of month and day). Be careful of the order of the dates in the calculation (ie the earlier date is subtracted from the later date will give you a negative value). Unless, a prior treatment timeline is the intention (ie treatments done prior to the date of diagnosis).&#x20;
+
+To calculate the day value (integer value), this can be easily done in excel, only if the data type is set correctly.
+
 ### START\_DATE column
 
 If you want to create a specimen timeline, you will need the date of collection of each specimen. To calculate the START\_DATE value for a specimen:
@@ -43,3 +55,21 @@ TREATMENT\_END\_DATE - DATE\_OF\_DIAGNOSIS = Days since the patient ended their 
 {% hint style="warning" %}
 For a specimen timeline, since it's an event that occurs at a single time point, the STOP\_DATE should be a blank. Do not put NA, N/A, or any variation of not applicable, unknown, or a space. Leave it blank.
 {% endhint %}
+
+## Tutorials
+
+For reference on how to do this, you can refer to the following excel tutorials that explains date conversion and calculations.
+
+**Date Conversion (setting up data type correctly) in excel**:
+
+{% embed url="https://www.youtube.com/watch?v=FErqhZl1Vds" %}
+A tutorial on how to convert text to date values in excel and other tips
+{% endembed %}
+
+**Date Calculations in excel:**
+
+{% embed url="https://www.youtube.com/watch?v=XJ96nwXpa7Y" %}
+A tutorial on how to calculate an integer value from two dates in excel
+{% endembed %}
+
+* Another resource on how to calculate an integer value from two dates: [Calculating the number of days between two dates in excel](https://ecampusontario.pressbooks.pub/businessmath/chapter/calculating-the-number-of-days-between-two-dates-in-ms-excel/)

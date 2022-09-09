@@ -11,6 +11,7 @@
     * [What is it?](file-formats/clinical-timeline-setup/what-is-it.md)
     * [Example Reference Projects](file-formats/clinical-timeline-setup/example-reference-projects.md)
     * [Calculations](file-formats/clinical-timeline-setup/calculations.md)
+    * [Additional Clinical Tracks](file-formats/clinical-timeline-setup/additional-clinical-tracks.md)
   * [Common Genomic Data File Headers](file-formats/common-genomic-data-file-headers.md)
   * [Case Lists Files](file-formats/case-lists-files.md)
 * [Clinical Data: cBioPortal + MOHCCN](clinical-data-cbioportal-+-mohccn/README.md)

@@ -10,8 +10,9 @@ These are the field names under the _ICGC ARGO File_ category 'Treatment'
 
 | **PATIENT\_ID** | **START\_DATE** | **STOP\_DATE** | **EVENT\_TYPE** | _<mark style="color:blue;">TREATMENT\_TYPE</mark>_ | _<mark style="color:blue;">SUBTYPE</mark>_ | SUBMITTER\_TREATMENT\_ID | SUBMITTER\_PRIMARY\_DIAGNOSIS\_ID | IS\_PRIMARY\_TREATMENT | TREATMENT\_SETTING | TREATMENT\_INTENT | RESPONSE\_TO\_TREATMENT |
 | --------------- | --------------- | -------------- | --------------- | -------------------------------------------------- | ------------------------------------------ | ------------------------ | --------------------------------- | ---------------------- | ------------------ | ----------------- | ----------------------- |
-|                 |                 |                | TREATMENT       |                                                    |                                            |                          |                                   |                        |                    |                   |                         |
-|                 |                 |                | TREATMENT       |                                                    |                                            |                          |                                   |                        |                    |                   |                         |
+| ABC-01-0001     | 10              | 26             | TREATMENT       | Line of Therapy                                    | First Line                                 |                          |                                   | Yes                    |                    | Curative          |                         |
+| ABC-01-0001     | 31              | 64             | TREATMENT       | Line of Therapy                                    | Second Line                                |                          |                                   | Yes                    |                    | Curative          |                         |
+| ABC-01-0050     | 6               | 22             | TREATMENT       | Line of Therapy                                    | First Line                                 |                          |                                   | No                     |                    | Curative          |                         |
 
 ### Legend
 

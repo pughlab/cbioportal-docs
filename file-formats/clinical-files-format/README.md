@@ -12,6 +12,8 @@ Having consistent sample ID's throughout the genomic and clinical files is extre
 
 Clinical data in cBioPortal is flexible. The minimal required file required for a project import is a clinical samples file_._ This file is THE mapping link between genomic data and clinical data by the common sample ID. However, having more data than just the patient ID __ and __ sample ID data is always best, as it will make your project relevant and provide a complete patient profile.&#x20;
 
+With the application of the [MOHCCN Clinical Data Standards](../../clinical-data-cbioportal-+-mohccn/), consisting of mCODE & ARGO data standards, there is a [clinical samples template](../../clinical-data-cbioportal-+-mohccn/templates/sample-file.md) along with cBioPortal required fields for your reference.
+
 ### Text File to User Interface
 
 The acceptable clinical file format for cBioPortal import is a tab-delimited file. The clinical samples data will be displayed on the user-interface via the patient view header's second line, where it lists all the samples associated with a patient. When hovering over a sample ID, a text box will be displayed listing all the sample details indicated in the clinical samples file. Additionally, the data is also displayed in the _Clinical Data_ tab under the Samples section.
@@ -36,8 +38,10 @@ If the user has additional clinical data they would like to import, cBioPortal s
 In order to have a successful timeline, there must be dates data. One cannot create a cBioportal timeline without any dates data. The date of diagnosis is a must have data point, as it will act as point zero on the clinical timeline scale. You will use the date of diagnosis to calculate any type of timeline, as the start point (`START_DATE`) is calculated in _DAYS._
 
 {% hint style="info" %}
-For more information about how to set up clinical timeline files, please refer to the [Clinical Data Setup](../clinical-timeline-setup/what-is-it.md) section or the official cBioportal documentation's [Timeline Data](https://docs.cbioportal.org/5.1-data-loading/data-loading/file-formats#timeline-data) section
+For more information about how to set up clinical timeline files, please refer to the [Clinical Timeline Setup](../clinical-timeline-setup/what-is-it.md) section or the official cBioportal documentation's [Timeline Data](https://docs.cbioportal.org/5.1-data-loading/data-loading/file-formats#timeline-data) section
 {% endhint %}
+
+If you are going to apply the MOHCCN clinical data standards, there are [templates](../../clinical-data-cbioportal-+-mohccn/templates/timeline-specimen.md) for each schema, their affiliated fields, and the required cBioPortal fields under the [Clinical Data: cBioPortal + MOHCCN section](../../clinical-data-cbioportal-+-mohccn/) of this documentation.
 
 ### Dates and Formatting
 

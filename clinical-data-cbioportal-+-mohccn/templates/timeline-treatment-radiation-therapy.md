@@ -4,10 +4,9 @@
 
 All the MOHCCN field names under the _ICGC ARGO File_ of category 'Radiation'
 
-| **PATIENT\_ID** | **START\_DATE** | **STOP\_DATE** | **EVENT\_TYPE** | _<mark style="color:blue;">TREATMENT\_TYPE</mark>_ | _<mark style="color:blue;">SUBTYPE</mark>_ | SUBMITTER\_TREATMENT\_ID | RADIATION\_THERAPY\_MODALITY | RADIATION\_THERAPY\_TYPE | RADIATION\_THERAPY\_FRACTIONS | RADIATION\_THERAPY\_DOSAGE | ANATOMICAL\_SITE\_IRRADIATED |
-| --------------- | --------------- | -------------- | --------------- | -------------------------------------------------- | ------------------------------------------ | ------------------------ | ---------------------------- | ------------------------ | ----------------------------- | -------------------------- | ---------------------------- |
-|                 |                 |                | TREATMENT       | Radiation Therapy                                  |                                            |                          |                              |                          |                               |                            |                              |
-|                 |                 |                | TREATMENT       | Radiation Therapy                                  |                                            |                          |                              |                          |                               |                            |                              |
+| **PATIENT\_ID** | **START\_DATE** | **STOP\_DATE** | **EVENT\_TYPE** | _<mark style="color:blue;">TREATMENT\_TYPE</mark>_ | _<mark style="color:blue;">SUBTYPE</mark>_ | SUBMITTER\_TREATMENT\_ID | RADIATION\_THERAPY\_MODALITY | RADIATION\_THERAPY\_TYPE | RADIATION\_THERAPY\_FRACTIONS | RADIATION\_THERAPY\_DOSAGE | ANATOMICAL\_SITE\_IRRADIATED          |
+| --------------- | --------------- | -------------- | --------------- | -------------------------------------------------- | ------------------------------------------ | ------------------------ | ---------------------------- | ------------------------ | ----------------------------- | -------------------------- | ------------------------------------- |
+| ABC-01-0001     | 80              |                | TREATMENT       | Radiation Therapy                                  |                                            |                          | Brachytherapy (procedure)    | External                 | 20                            | 5                          | Chest wall structure (body structure) |
 
 ### Legend
 

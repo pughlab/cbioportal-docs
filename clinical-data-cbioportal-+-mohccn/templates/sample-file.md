@@ -24,7 +24,7 @@ Black and bold font are mandatory cBioportal headers
 * The **ONCOTREE\_CODE** field would be the acronym of the Cancer Type Detailed name in the “CANCER\_TYPE\_DETAILED” field\
   &#x20;       For example: “NSCLCPD”
 
-![OncoTree Code Example](broken-reference)
+<figure><img src="../../.gitbook/assets/Oncotree_code_example.png" alt=""><figcaption></figcaption></figure>
 
 #### cBioPortal suggested columns in _<mark style="color:blue;">blue italics</mark>_:
 

@@ -8,7 +8,21 @@ description: >-
 
 The following table is organized by: the type of genomic data, its required format (also cBioPortal suggested filename convention - the link provided directs users to the specific section in the official [cBioPortal.org's documentation website](https://docs.cbioportal.org/5.1-data-loading/data-loading/file-formats#formats)), comments, and the mandatory associated meta file for the data file. For every data file in the import directory, there must be a meta file for it.
 
+To setup and create a "minimal" cBioPortal project, you will need the following files:
 
+* [meta\_study.txt](https://docs.cbioportal.org/file-formats/#meta-file)
+* [meta\_clinical\_samples.txt](https://docs.cbioportal.org/file-formats/#meta-files)
+* [data\_clinical\_samples.txt](https://docs.cbioportal.org/file-formats/#clinical-sample-columns)
+* [case\_lists/](https://docs.cbioportal.org/file-formats/#case-lists)
+  * [cases\_sequenced.txt](https://docs.cbioportal.org/file-formats/#required-case-lists)
+
+**NOTE**: The more data that is provided, the better your project will be, and will be able to use cBioPortal's features. Creating a project with the bare minimal data will not be very useful to the user.
+
+{% hint style="danger" %}
+#### Please use _consistent sample IDs_ across all files (genomic and clinical files) – watch out for underscores and dashes!
+{% endhint %}
+
+### Data Types Summary Table
 
 | Platform (data type)                                                                    | Required format                                                                                                                 | Alternate formats                                                                                                                | Notes                                                                                                                                            | Associated meta file                       |
 | --------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------ | ------------------------------------------ |
@@ -28,5 +42,14 @@ The following table is organized by: the type of genomic data, its required form
 |                                                                                         |                                                                                                                                 | [data\_phosphoprotein\_quantification.txt](https://docs.cbioportal.org/5.1-data-loading/data-loading/file-formats#generic-assay) |                                                                                                                                                  | meta\_phosphoprotein\_quantification.txt   |
 | [Other formats](https://docs.cbioportal.org/5.1-data-loading/data-loading/file-formats) |                                                                                                                                 |                                                                                                                                  |                                                                                                                                                  |                                            |
 
-#### NOTE: Please use _consistent sample IDs_ across all files (genomic and clinical files) – watch out for underscores and dashes!
+{% hint style="warning" %}
+**A samples file (aka data\_clinical\_samples.txt) is mandatory for a project import! It is the key file in mapping of the project's IDs.**&#x20;
+{% endhint %}
 
+### Skeleton of the directory structure
+
+<figure><img src="../.gitbook/assets/skeleton_directory_structure.png" alt=""><figcaption><p>An example of how a directory of import files would look like</p></figcaption></figure>
+
+{% hint style="info" %}
+For more information on what the case\_list directory is and what case files are, please refer to the [Case List Files section](case-lists-files.md)
+{% endhint %}

@@ -23,8 +23,10 @@ Regardless of which event type is to be created, all timeline data files must co
 1. &#x20;**PATIENT\_ID**: the patient ID from the dataset
 2. **START\_DATE**: the start point of any event, calculated in \*days from the date of diagnosis (which will act as point zero on the timeline scale)
 3. **STOP\_DATE**: The end date of the event is calculated in days from the date of diagnosis (which will act as point zero on the timeline scale). If the event occurs over time (e.g. a Treatment, ...) the STOP\_DATE column should have values. If the event occurs at a time point (e.g. a Lab\_test, Imaging, ...) the STOP\_DATE is still mandatory, but the values should be blanks.
-4. **EVENT\_TYPE**: the category of the event. You are free to define any type of event here. For several event types cBioPortal has column naming suggestions and for several events there are column names which have special effects. See event types for more information.
+4. **EVENT\_TYPE**: the category of the event. You are free to define any type of event here. For several event types cBioPortal has column naming suggestions and for several events there are column names which have special effects. See [event types](https://docs.cbioportal.org/file-formats/#clinical-track-ordering) for more information on the official cBioPortal documentation. For example, it can be "Lab\_test", "Imaging", etc
 
 {% hint style="warning" %}
 Having the DATE\_OF\_DIAGNOSIS data is extremely important and key to creating a clinical timeline file. As well as having DATES data for any type of event. You do not need to import the actual dates data into cBioPortal. However, you need to have this information in order to calculate the integer values for the **START\_DATE** and **STOP\_DATE** columns, which are mandatory.
 {% endhint %}
+
+####
