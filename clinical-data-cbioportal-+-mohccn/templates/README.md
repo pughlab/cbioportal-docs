@@ -7,14 +7,16 @@ The MOHCCN data standard has its required fields. cBioPortal has its required fi
 * [ ] Patients
 * [ ] Samples
 * [ ] Timeline: Specimen
-* [ ] Timeline: Treatment
 * [ ] Timeline: Treatment Medical Therapy
 * [ ] Timeline: Treatment Radiation Therapy
+* [ ] Timeline: Surgery
 * [ ] Timeline: Follow-up
+* [ ] Timeline: Relapse
+* [ ] Timeline: Biomarker
 
 ### cBioPortal MOHCCN Clinical Fields Template
 
-{% file src="../../.gitbook/assets/cBioportal_MOHCCN_Clinical_Fields_updated_April062022.xlsx" %}
+{% file src="../../.gitbook/assets/cBioportal_MOHCCN_Standard_Clinical_Fields_Template_updated_Sept202022.xlsx" %}
 The downloadable file including the MOHCCN data standard and associated templates
 {% endfile %}
 

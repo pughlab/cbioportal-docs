@@ -19,7 +19,7 @@
     * [Patient File](clinical-data-cbioportal-+-mohccn/templates/patient-file.md)
     * [Sample File](clinical-data-cbioportal-+-mohccn/templates/sample-file.md)
     * [Timeline: Specimen](clinical-data-cbioportal-+-mohccn/templates/timeline-specimen.md)
-    * [Timeline: Treatment](clinical-data-cbioportal-+-mohccn/templates/timeline-treatment.md)
+    * [Timeline: Treatment Medical Therapy](clinical-data-cbioportal-+-mohccn/templates/timeline-treatment-medical-therapy.md)
     * [Timeline: Treatment Radiation Therapy](clinical-data-cbioportal-+-mohccn/templates/timeline-treatment-radiation-therapy.md)
     * [Timeline: Surgery](clinical-data-cbioportal-+-mohccn/templates/timeline-surgery.md)
     * [Timeline: Follow-up](clinical-data-cbioportal-+-mohccn/templates/timeline-follow-up.md)
