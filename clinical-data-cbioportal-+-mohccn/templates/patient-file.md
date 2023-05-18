@@ -31,7 +31,7 @@ Black and bold font are mandatory cBioportal headers
 
 These columns, when provided, add additional information to the patient description in the header:
 
-* _<mark style="color:blue;">GENDER</mark> _ or _<mark style="color:blue;">SEX</mark>_: Gender or sex of the patient (string)
+* _<mark style="color:blue;">GENDER</mark>_ or _<mark style="color:blue;">SEX</mark>_: Gender or sex of the patient (string)
 * _<mark style="color:blue;">AGE</mark>_: Age at which the condition or disease was first diagnosed, in years (number)
 * _<mark style="color:blue;">TUMOR\_SITE</mark>_
 

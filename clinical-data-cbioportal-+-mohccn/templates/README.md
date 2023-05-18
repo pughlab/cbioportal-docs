@@ -14,10 +14,18 @@ The MOHCCN data standard has its required fields. cBioPortal has its required fi
 * [ ] Timeline: Relapse
 * [ ] Timeline: Biomarker
 
-### cBioPortal MOHCCN Clinical Fields Template
+## cBioPortal MOHCCN Clinical Fields Template
+
+### MOHCCN Standard Sept 2022 version
 
 {% file src="../../.gitbook/assets/cBioportal_MOHCCN_Standard_Clinical_Fields_Template_updated_Sept202022.xlsx" %}
-The downloadable file including the MOHCCN data standard and associated templates
+A downloadable excel template of the MOHCCN Standard with cBioPortal required and suggested fields
+{% endfile %}
+
+### MOHCCN Standard Feb 2023 version
+
+{% file src="../../.gitbook/assets/cBioportal_MOHCCN_Standard_Clinical_Fields_Template_updated_Feb2023version.xlsx" %}
+A downloadable excel template of the MOHCCN Standard with cBioPortal required and suggested fields
 {% endfile %}
 
 {% hint style="warning" %}

@@ -10,7 +10,7 @@ Having consistent sample ID's throughout the genomic and clinical files is extre
 
 ### Clinical Samples File
 
-Clinical data in cBioPortal is flexible. The minimal required file required for a project import is a clinical samples file_._ This file is THE mapping link between genomic data and clinical data by the common sample ID. However, having more data than just the patient ID __ and __ sample ID data is always best, as it will make your project relevant and provide a complete patient profile.&#x20;
+Clinical data in cBioPortal is flexible. The minimal required file required for a project import is a clinical samples file_._ This file is THE mapping link between genomic data and clinical data by the common sample ID. However, having more data than just the patient ID and sample ID data is always best, as it will make your project relevant and provide a complete patient profile.&#x20;
 
 With the application of the [MOHCCN Clinical Data Standards](../../clinical-data-cbioportal-+-mohccn/), consisting of mCODE & ARGO data standards, there is a [clinical samples template](../../clinical-data-cbioportal-+-mohccn/templates/sample-file.md) along with cBioPortal required fields for your reference.
 
