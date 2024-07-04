@@ -14,11 +14,7 @@ The expected mutation file format cBioPortal expects upon project import is a [M
 
 A minimal MAF file can be created and cBioPortal does accept a MAF with a minimal set of just four column headers for project import. For more information, please refer to the _minimal MAF format_ section of the [cBioportal documentation](https://docs.cbioportal.org/5.1-data-loading/data-loading/file-formats#minimal-maf-format) for the details.&#x20;
 
-| Hugo\_Symbol | Variant\_Classification | Tumor\_Sample\_Barcode | HGVSp\_Short |
-| ------------ | ----------------------- | ---------------------- | ------------ |
-| PPOX         | Missense\_Mutation      | ABC-001-0001-AA        | p.R168H      |
-|              |                         |                        |              |
-|              |                         |                        |              |
+<table><thead><tr><th>Hugo_Symbol</th><th>Variant_Classification</th><th width="224">Tumor_Sample_Barcode</th><th>HGVSp_Short</th></tr></thead><tbody><tr><td>PPOX</td><td>Missense_Mutation</td><td>ABC-001-0001-AA</td><td>p.R168H</td></tr><tr><td></td><td></td><td></td><td></td></tr><tr><td></td><td></td><td></td><td></td></tr></tbody></table>
 
 * **Hugo\_Symbol**: A [HUGO](https://www.genenames.org/) gene symbol (aka HGNC Hugo Gene Nomenclature Committee)
 * **Variant\_Classification**: A particular type of mutation. Acceptable values: `Frame_Shift_Del, Frame_Shift_Ins, In_Frame_Del, In_Frame_Ins, Missense_Mutation, Nonsense_Mutation, Silent, Splice_Site, Translation_Start_Site, Nonstop_Mutation, 3'UTR, 3'Flank, 5'UTR, 5'Flank, IGR, Intron, RNA, Targeted_Region, De_novo_Start_InFrame, De_novo_Start_OutOfFrame`. cBioPortal skips the following types during the import: `Silent, Intron, 3'UTR, 3'Flank, 5'UTR, 5'Flank, IGR and RNA`. Two extra values are allowed by cBioPortal here as well: `Splice_Region, Unknown`. ⚠️ the values should be in the correct case. E.g. `missense_mutation` is not allowed, while `Missense_Mutation` is.&#x20;
@@ -32,37 +28,17 @@ From a minimal MAF file, the next step to proceed in creating an extended MAF fi
 \
 \* It is highly recommended to run your mutations file through vcf2maf, as we would like all our project data to be consistent.
 
-## Fusion File
+## Structural Variant File
 
-A [fusion data](https://docs.cbioportal.org/5.1-data-loading/data-loading/file-formats#fusion-data) file consists of one gene per row. It is a tab-delimited file, where the naming format and order of the headers must be the following:
+A [structural variant](https://docs.cbioportal.org/file-formats/#structural-variant-data) file is a tab-delimited file with one structural variant per row. It minimally requires a few headers: `Sample_Id`, either `Site1_Hugo_Symbol`/ `Site1_Entrez_Gene_Id` or `Site2_Hugo_Symbol`/ `Site2_Entrez_Gene_Id` and `SV_Status`
 
-| Hugo\_Symbol | Entrez\_Gene\_Id | Center | Tumor\_Sample\_Barcode | Fusion        | DNA\_support | RNA\_support | Method                   | Frame      |
-| ------------ | ---------------- | ------ | ---------------------- | ------------- | ------------ | ------------ | ------------------------ | ---------- |
-| KPNA6        | 23633            | PMCC   | ABC-001-0001-AA        | KHDRBS1-KPNA6 | no           | yes          | fusioncatcher,starfusion | frameshift |
-|              |                  |        |                        |               |              |              |                          |            |
-|              |                  |        |                        |               |              |              |                          |            |
-
-* **Hugo\_Symbol**: A [HUGO](https://www.genenames.org/) gene symbol (aka HGNC Hugo Gene Nomenclature Committee)
-* **Entrez\_Gene\_Id**: A [Entrez Gene](https://www.ncbi.nlm.nih.gov/gene) identifier
-* **Center**: The sequencing centre (eg UHN)
-* **Tumor\_Sample\_Barcode**: This is the sample ID
-* **Fusion**: A description of the fusion, e.g., "TMPRSS2-ERG"
-* **DNA\_support**: Fusion detected from DNA sequence data, values: "yes" or "no"
-* **RNA\_support**: Fusion detected from RNA sequence data, values: "yes" or "no"
-* **Method**: Fusion detected algorithm/tool
-* **Frame**: "in-frame" or "frameshift"
-* **Annotation (OPTIONAL)**:&#x20;
-* **Fusion\_Status (OPTIONAL)**: An assessment of the mutation type (i.e., "SOMATIC", "GERMLINE", "UNKNOWN", or empty)
+Additional annotation columns can be added to the structural variant file. From the official cBioportal documentation, they provide [a set of suggested field names](https://docs.cbioportal.org/file-formats/#data-file-9), permissible values and example values, please refer to their website.
 
 ## Segmented File
 
 A [segmented data](https://docs.cbioportal.org/5.1-data-loading/data-loading/file-formats#segmented-data) file (aka seg file) is a tab-delimited text file that lists loci and associated numeric values. When the seg data is imported, it enables the 'CNA' track on cBioPortal's Patient view within the Summary tab. The naming format and order of the headers must be the following:
 
-| ID              | chrom | loc.start | loc.end | num.mark | seg.mean    |
-| --------------- | ----- | --------- | ------- | -------- | ----------- |
-| ABC-001-0001-AA | 1     | 1629333   | 1654148 | 60       | 0.065590407 |
-|                 |       |           |         |          |             |
-|                 |       |           |         |          |             |
+<table><thead><tr><th width="245">ID</th><th width="150">chrom</th><th>loc.start</th><th>loc.end</th><th>num.mark</th><th>seg.mean</th></tr></thead><tbody><tr><td>ABC-001-0001-AA</td><td>1</td><td>1629333</td><td>1654148</td><td>60</td><td>0.065590407</td></tr><tr><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td></td><td></td><td></td><td></td><td></td><td></td></tr></tbody></table>
 
 * **ID**: This is the sample ID
 * **chrom**: Chromosome number; integer values only (no 'chr')

@@ -14,7 +14,4 @@ cBioPortal already have some event types that are predefined and have special ef
 
 #### Example: "Imaging" Event
 
-| PATIENT\_ID | START\_DATE | STOP\_DATE | EVENT   | DIAGNOSTIC\_TYPE | RESULT | TREATMENT\_CYCLE | TARGET\_RESPONSE | NON\_TARGET\_RESPONSE | OVERALL\_RESPONSE |
-| ----------- | ----------- | ---------- | ------- | ---------------- | ------ | ---------------- | ---------------- | --------------------- | ----------------- |
-| ABC-01-0001 | 100         |            | IMAGING | CT Scan          | 28     | 3                | Partial response | NonCR/NonPD           | Partial response  |
-|             |             |            |         |                  |        |                  |                  |                       |                   |
+<table data-header-hidden><thead><tr><th></th><th></th><th width="87"></th><th width="113"></th><th width="134"></th><th></th><th></th><th></th><th></th><th></th></tr></thead><tbody><tr><td>PATIENT_ID</td><td>START_DATE</td><td>STOP_DATE</td><td>EVENT</td><td>DIAGNOSTIC_TYPE</td><td>RESULT</td><td>TREATMENT_CYCLE</td><td>TARGET_RESPONSE</td><td>NON_TARGET_RESPONSE</td><td>OVERALL_RESPONSE</td></tr><tr><td>ABC-01-0001</td><td>100</td><td></td><td>IMAGING</td><td>CT Scan</td><td>28</td><td>3</td><td>Partial response</td><td>NonCR/NonPD</td><td>Partial response</td></tr><tr><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr></tbody></table>

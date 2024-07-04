@@ -20,4 +20,4 @@ For most genomic files, there will need to be an associated case file for it. Pl
 
 #### Example of the case\_list directory
 
-<figure><img src="../.gitbook/assets/case_list_directory_files.png" alt=""><figcaption><p>An example of the list of files in a case_list directory for a project</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image.png" alt=""><figcaption><p>A typical case_lists directory containing case list files</p></figcaption></figure>

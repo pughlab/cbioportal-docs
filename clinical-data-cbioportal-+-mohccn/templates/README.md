@@ -22,13 +22,20 @@ The MOHCCN data standard has its required fields. cBioPortal has its required fi
 A downloadable excel template of the MOHCCN Standard with cBioPortal required and suggested fields
 {% endfile %}
 
-### MOHCCN Standard Feb 2023 version
+### MOHCCN Standard Feb 2023 version (V2)
 
 {% file src="../../.gitbook/assets/cBioportal_MOHCCN_Standard_Clinical_Fields_Template_updated_Feb2023version.xlsx" %}
 A downloadable excel template of the MOHCCN Standard with cBioPortal required and suggested fields
 {% endfile %}
 
+### MOHCCN Standard May 2024 version (V3)
+
+
+
+{% file src="../../.gitbook/assets/cBioportal_MOHCCN_Standard_Clinical_Fields_Template_V3_May2024 (1).xlsx" %}
+A downloadable excel template of the MOHCCN Standard V3 with mapped cBioportal required and suggested fields
+{% endfile %}
+
 {% hint style="warning" %}
 The template is in excel for the user's ease in filling out the data. However, for the actual cBioPortal project import, the file is to be in tab-delimited format. Please do not include empty columns or extra spaces, as these will give errors upon import.
 {% endhint %}
-

@@ -2,7 +2,7 @@
 
 ## Timeline: Specimen Headers
 
-As the timeline specimen file is closely aligned with the sample file, all those fields regarding sample attributes are in the clinical samples file, to have concise data and to avoid data duplication. The "specimen\_acquisition\_interval" field name from the MOHCCN fields is relevant for a specimen timeline
+When this file is provided, a specimen timeline track will be present on the clinical timeline track, showing when the specimen was obtained. As the timeline specimen file is closely aligned with the sample file, all those fields regarding sample attributes are in the clinical samples file, to have concise data and to avoid data duplication. The same data from the sample file will show up on the timeline when the user hovers over the time-point. The old "specimen\_acquisition\_interval" field name from the MOHCCN fields is relevant for a specimen timeline.&#x20;
 
 | **PATIENT\_ID** | **START\_DATE** | **STOP\_DATE** | **EVENT\_TYPE** | **SAMPLE\_ID**     |
 | --------------- | --------------- | -------------- | --------------- | ------------------ |

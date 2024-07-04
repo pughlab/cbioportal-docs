@@ -14,6 +14,7 @@
     * [Additional Clinical Tracks](file-formats/clinical-timeline-setup/additional-clinical-tracks.md)
   * [Common Genomic Data File Headers](file-formats/common-genomic-data-file-headers.md)
   * [Case Lists Files](file-formats/case-lists-files.md)
+  * [cBioportal Import Files Directory](file-formats/cbioportal-import-files-directory.md)
 * [Clinical Data: cBioPortal + MOHCCN](clinical-data-cbioportal-+-mohccn/README.md)
   * [Templates](clinical-data-cbioportal-+-mohccn/templates/README.md)
     * [Patient File](clinical-data-cbioportal-+-mohccn/templates/patient-file.md)

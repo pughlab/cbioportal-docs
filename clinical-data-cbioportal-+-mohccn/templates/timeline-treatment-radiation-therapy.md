@@ -2,11 +2,9 @@
 
 ## Timeline Treatment Radiation Therapy Headers
 
-All the MOHCCN field names under the _ICGC ARGO File_ of category 'Radiation'
+All the MOHCCN field names under the _ICGC ARGO schema_ 'Radiation'
 
-| **PATIENT\_ID** | **START\_DATE** | **STOP\_DATE** | **EVENT\_TYPE** | _<mark style="color:blue;">TREATMENT\_TYPE</mark>_ | _<mark style="color:blue;">SUBTYPE</mark>_ | PROGRAM\_ID | SUBMITTER\_TREATMENT\_ID | RADIATION\_THERAPY\_MODALITY | RADIATION\_THERAPY\_TYPE | RADIATION\_THERAPY\_FRACTIONS | RADIATION\_THERAPY\_DOSAGE | ANATOMICAL\_SITE\_IRRADIATED          | RADIATION\_BOOST | REFERENCE\_RADIATION\_TREATMENT\_ID |
-| --------------- | --------------- | -------------- | --------------- | -------------------------------------------------- | ------------------------------------------ | ----------- | ------------------------ | ---------------------------- | ------------------------ | ----------------------------- | -------------------------- | ------------------------------------- | ---------------- | ----------------------------------- |
-| ABC-01-0001     | 80              |                | TREATMENT       | Radiation Therapy                                  |                                            |             |                          | Brachytherapy (procedure)    | External                 | 20                            | 5                          | Chest wall structure (body structure) |                  |                                     |
+<table data-header-hidden><thead><tr><th width="171"></th><th width="157"></th><th width="140"></th><th width="144"></th><th width="194"></th><th width="200"></th><th width="156"></th><th width="264"></th><th width="303"></th><th width="257"></th><th width="306"></th><th width="281"></th><th width="294"></th><th width="186"></th><th width="368"></th><th></th></tr></thead><tbody><tr><td><strong>PATIENT_ID</strong></td><td><strong>START_DATE</strong></td><td><strong>STOP_DATE</strong></td><td><strong>EVENT_TYPE</strong></td><td><em><mark style="color:blue;">TREATMENT_TYPE</mark></em></td><td><em><mark style="color:blue;">SUBTYPE</mark></em></td><td>PROGRAM_ID</td><td>SUBMITTER_TREATMENT_ID</td><td>RADIATION_THERAPY_MODALITY</td><td>RADIATION_THERAPY_TYPE</td><td>RADIATION_THERAPY_FRACTIONS</td><td>RADIATION_THERAPY_DOSAGE</td><td>ANATOMICAL_SITE_IRRADIATED</td><td>RADIATION_BOOST</td><td>REFERENCE_RADIATION_TREATMENT_ID</td><td></td></tr><tr><td>ABC-01-0001</td><td>80</td><td></td><td>TREATMENT</td><td>Radiation Therapy</td><td></td><td>ABC</td><td></td><td>Brachytherapy (procedure)</td><td>External</td><td>20</td><td>5</td><td>Chest wall structure (body structure)</td><td>No</td><td></td><td></td></tr></tbody></table>
 
 ### Legend
 
