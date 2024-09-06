@@ -20,6 +20,9 @@ A minimal MAF file can be created and cBioPortal does accept a MAF with a minima
 * **Variant\_Classification**: A particular type of mutation. Acceptable values: `Frame_Shift_Del, Frame_Shift_Ins, In_Frame_Del, In_Frame_Ins, Missense_Mutation, Nonsense_Mutation, Silent, Splice_Site, Translation_Start_Site, Nonstop_Mutation, 3'UTR, 3'Flank, 5'UTR, 5'Flank, IGR, Intron, RNA, Targeted_Region, De_novo_Start_InFrame, De_novo_Start_OutOfFrame`. cBioPortal skips the following types during the import: `Silent, Intron, 3'UTR, 3'Flank, 5'UTR, 5'Flank, IGR and RNA`. Two extra values are allowed by cBioPortal here as well: `Splice_Region, Unknown`. ⚠️ the values should be in the correct case. E.g. `missense_mutation` is not allowed, while `Missense_Mutation` is.&#x20;
 * **Tumor\_Sample**_**\_**_**Barcode**: This is the sample ID
 * **HGVSp\_Short**: Protein change, e.g., p.T790M
+  * <mark style="color:red;">NOTE</mark>: Please be aware that no 3-letter codes are allowed anymore.  \
+    E.g. `p.Gly12Asp` <- instead it should be `p.G12D`
+    * When p.G12D is used, then cBioportal can properly generate the mutation lollipop plot
 
 #### Creating an extended MAF file
 
