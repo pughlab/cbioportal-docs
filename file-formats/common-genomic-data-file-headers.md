@@ -8,7 +8,7 @@ Most common genomic files imported are the mutations, fusion, seg, and CNA files
 
 ## Mutation File
 
-The expected mutation file format cBioPortal expects upon project import is a [MAF](https://docs.gdc.cancer.gov/Data/File\_Formats/MAF\_Format/) file format. If the mutations data is run with [vcf2maf](https://github.com/mskcc/vcf2maf) with [Ensembl's VEP](http://useast.ensembl.org/info/docs/tools/vep/index.html), then having the expected cBioportal file headers and content are not to be of a concern. The [NIH GDC's MAF](https://docs.gdc.cancer.gov/Data/File\_Formats/MAF\_Format/#protected-maf-file-structure) file formats webpage provides details on what is each column and their definitions.
+The expected mutation file format cBioPortal expects upon project import is a [MAF](https://docs.gdc.cancer.gov/Data/File_Formats/MAF_Format/) file format. If the mutations data is run with [vcf2maf](https://github.com/mskcc/vcf2maf) with [Ensembl's VEP](http://useast.ensembl.org/info/docs/tools/vep/index.html), then having the expected cBioportal file headers and content are not to be of a concern. The [NIH GDC's MAF](https://docs.gdc.cancer.gov/Data/File_Formats/MAF_Format/#protected-maf-file-structure) file formats webpage provides details on what is each column and their definitions.
 
 #### Deciding to create your own minimal MAF file
 
@@ -104,7 +104,7 @@ The metadata file's fields are slightly different for the segmented data's metad
 3. **data\_type**: SEG
 4. **reference\_genome\_id**: The genome version of the data. Acceptable values: "hg19" or "hg38"
 5. **description**: A short description of the segmented data
-6. **data\_filename**: The data file's filename is to be stated here. e.g., "data\_segments.seg_"_
+6. **data\_filename**: The data file's filename is to be stated here. e.g., "data\_segments.se&#x67;_"_
 
 {% hint style="info" %}
 Please note these are the common genomic data files. If there are other genomic data files to be included in the import, those data files also require its own metadata file as well. For more information on the [other genomic data](https://docs.cbioportal.org/file-formats/#expression-data) and how to prepare the data and the metadata file please refer to the official cBioPortal's documentation. (Hint: for ease of navigation their website has an organized navigation sidebar on the right of the webpage to help users)

@@ -30,10 +30,14 @@ A downloadable excel template of the MOHCCN Standard with cBioPortal required an
 
 ### MOHCCN Standard May 2024 version (V3)
 
+{% file src="../../.gitbook/assets/cBioportal_MOHCCN_Standard_Clinical_Fields_Template_V3_May2024.xlsx" %}
+A downloadable excel template of the MOHCCN Standard mapped with cBioPortal required and suggested fields
+{% endfile %}
 
+### MOHCCN Standard Sept 2024 version (V3.1)
 
-{% file src="../../.gitbook/assets/cBioportal_MOHCCN_Standard_Clinical_Fields_Template_V3_May2024 (1).xlsx" %}
-A downloadable excel template of the MOHCCN Standard V3 with mapped cBioportal required and suggested fields
+{% file src="../../.gitbook/assets/cBioportal_MOHCCN_Standard_Clinical_Fields_Template_V3.1_Sept2024.xlsx" %}
+A downloadable excel template of the MOHCCN Standard mapped with cBioPortal required and suggested fields
 {% endfile %}
 
 {% hint style="warning" %}
